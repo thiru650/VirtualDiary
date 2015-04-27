@@ -1,0 +1,113 @@
+{
+    "date": "2014-04-15",
+    "check_ins": [
+        {
+            "venue_name": "Rutgers, Busch Campus - Residence Life",
+            "shout": "Nothing much...",
+            "photo_url": "https://irs2.4sqi.net/img/general/300x300/69134575_VMw9kHdicodZAzPFPoR_GMnNYcAJ7k-rQ0r1Sj-46KI.jpg",
+            "time": "1:47 AM",
+            "source": "foursquare",
+            "mood": "sad"
+        },
+        {
+            "venue_name": "Society Hill at Piscataway",
+            "shout": "A check in to end the day...",
+            "time": "1:57 AM",
+            "source": "foursquare",
+            "mood": "happy"
+        }
+    ],
+    "events": [
+        {
+            "name": "APRU Presents- Tastes of Punjab: Free Punjabi Food",
+            "venue": "Busch Campus Center",
+            "rsvp_status": "attending",
+            "time": "6:00 PM",
+            "source": "facebook",
+            "mood": "happy"
+        },
+        {
+            "name": "GSA Halloween Spooky Soiree",
+            "venue": "Graduate Student Lounge(RSC),behind Au bon Pain",
+            "rsvp_status": "attending",
+            "time": "7:00 PM",
+            "source": "facebook",
+            "mood": "happy"
+        },
+        {
+            "name": "Database class",
+            "venue": "Hill centre",
+            "start_time": "12:00 PM",
+            "end_time": "03:00 PM",
+            "source": "google_calendar",
+            "mood": "stressful"
+        },
+        {
+            "name": "Data structures class",
+            "venue": "Core Auditorium",
+            "start_time": "06:40 PM",
+            "end_time": "09:00 PM",
+            "source": "google_calendar",
+            "mood": "stressful"
+        }
+    ],
+    "photos": [
+        {
+            "pic_url": "https://scontent-b.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/1558477_599543140093097_2104459884_n.jpg",
+            "tags": [
+                {
+                    "name": "Thirunavukkarasu Ar"
+                },
+                {
+                    "name": "Vineeth Pai"
+                }
+            ],
+            "place": "Rutgers Student Center",
+            "time": "11:00AM",
+            "source": "facebook",
+            "mood": "happy"
+        },
+        {
+            "pic_url": "https://scontent-a.xx.fbcdn.net/hphotos-prn1/t1.0-9/s720x720/1017299_10202011013573871_969560886_n.jpg",
+            "tags": [
+                {
+                    "name": "Thirunavukkarasu Ar"
+                },
+                {
+                    "name": "Priyan Raj"
+                }
+            ],
+            "source": "facebook",
+            "place": "Rutgers Student Center",
+            "time": "12:00PM",
+            "mood": "happy"
+        }
+    ],
+    "Status": [
+        {
+            "message": "Prakhar Srivastava AnuragReddy Premchand Chidipothu Avinash Veeramachaneni",
+            "place": "Mamoun'sNewBrunswick",
+            "time": "9:00AM",
+            "source": "facebook",
+            "mood": "happy"
+        },
+        {
+            "message": "We will never see him play again :( :(",
+            "time": "9:05AM",
+            "source": "facebook",
+            "mood": "happy"
+        },
+        {
+            "message": "@henrygayle we need a 333 in one day cricket now maaan...not against india but #gayleStorm",
+            "time": "9:10AM",
+            "source": "twitter",
+            "mood": "happy"
+        },
+        {
+            "message": "Kevon cooper bends his arm while bowling?? #pwi #ipl",
+            "time": "9:15AM",
+            "source": "twitter",
+            "mood": "happy"
+        }
+    ]
+}

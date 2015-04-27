@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="VirtualDiary.master.cs" Inherits="dbVirtualDiary.VirtualDiary" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Virtual Diary</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="masterdesign">
+        <table align="center" width="95%" style="max-width: 1400px;" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <td style="width: 10px;"></td>
+                            <td style="width: 200px;">
+                                <h1>Virtual Diary</h1>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td width="100%">
+                                            <ul id="coolMenu">
+                                                <li class="hyperlink">
+                                                    <asp:HyperLink ID="HyperLink" runat="server" Text="Diary entry" NavigateUrl="~/Main.aspx"></asp:HyperLink>
+                                                </li>
+                                                <li class="hyperlink">
+                                                    <asp:HyperLink ID="HyperLink4" runat="server" Text="Mood-o-meter" NavigateUrl="~/moodscore.aspx"></asp:HyperLink>
+                                                </li>                                                
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <%--<table width="100%" cellspacing="0" cellpadding="0" border="0">--%>
+                    <form id="form1" class="paper" runat="server" style="min-height:400px;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </form>
+                    <%--</table>--%>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <td>
+                                <footer style="text-align: center; background: #333399; font-family: 'Comic Sans MS'; color: white; height: 70px; padding: 25px 0px 5px 0px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; font-size:larger;">
+                                    <p>
+                                        Copyright <span style="font-family: Arial;">&copy; </span>2014, VirtualDiary.com. All Rights Reserved.<br />
+
+                                    </p>
+                                </footer>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
